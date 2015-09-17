@@ -12,7 +12,7 @@
         <asp:TextBox ID="txtInput" runat="server"></asp:TextBox>
         <br />
         <br />
-        <asp:Button ID="btnSubmit" runat="server" Text="Button"  />
+        <asp:Button ID="btnSubmit" runat="server" Text="Button" OnClick="btnSubmit_Click"  />
         <br />
         <br />
         <asp:Label ID="lblStatus" runat="server" ></asp:Label>

@@ -9,7 +9,11 @@ public partial class WebPage : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        
+        txtInput.Focus();
     }
-  
+
+    protected void btnSubmit_Click(object sender, EventArgs e)
+    {
+        lblStatus.Text = txtInput.Text.ToString();
+    }
 }
